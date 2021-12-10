@@ -1,0 +1,7 @@
+fi=open("NUMF3.INP","r")
+a=int(fi.readline())
+fi.close()
+x=int((a%1000)//100)
+fo=open("NUMF3.OUT","w")
+print(x,file=fo)
+fo.close()

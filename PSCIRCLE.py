@@ -1,0 +1,12 @@
+from math import pi
+fi=open("PSCIRCLE.INP","r")
+x0=int(fi.readline())
+y0=int(fi.readline())
+R=int(fi.readline())
+fi.close()
+P=float((2*R*pi))
+S=float((pi*(R**2)))
+fo=open("PSCIRCLE.OUT","w")
+print(P,file=fo)
+print(S,file=fo)
+fo.close()

@@ -1,0 +1,11 @@
+from math import sqrt
+fi=open("DISTANAB.INP","r")
+xA=int(fi.readline())
+yA=int(fi.readline())
+xB=int(fi.readline())
+yB=int(fi.readline())
+fi.close()
+distanab=float((sqrt(((xB-xA)**2)+((yB-yA)**2))))
+fo=open("DISTANAB.OUT","w")
+print(distanab,file=fo)
+fo.close()

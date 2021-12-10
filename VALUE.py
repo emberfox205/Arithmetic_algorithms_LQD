@@ -1,0 +1,10 @@
+from math import sqrt
+fi=open("VALUE.INP","r")
+a=int(fi.readline())
+b=int(fi.readline())
+c=int(fi.readline())
+fi.close()
+x=((a+b+c)/(a*b*c))+sqrt(a*b*c)
+fo=open("VALUE.OUT","w")
+print(x,file=fo)
+fo.close()

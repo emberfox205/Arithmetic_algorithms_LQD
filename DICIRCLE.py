@@ -1,0 +1,10 @@
+from math import sqrt
+fi=open("DICIRCLE.INP","r")
+x0=int(fi.readline())
+y0=int(fi.readline())
+R=int(fi.readline())
+fi.close()
+x=float((sqrt(((x0)**2)+((y0)**2))-R))
+fo=open("DICIRCLE.OUT","w")
+print(x,file=fo)
+fo.close()
